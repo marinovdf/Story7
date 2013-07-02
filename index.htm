@@ -1,0 +1,570 @@
+<!-- TODO Edit js/parallax.min.js to set correct parallax scrolling speed -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Newsplot | Игра для миллионов</title> <!-- TODO insert title -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Newsplot">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <![endif]-->
+  <!-- icons -------------------------->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/favicon_144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/favicon_114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/favicon_72.png">
+  <link rel="apple-touch-icon-precomposed" href="ico/favicon_57.png">
+  <link rel="shortcut icon" href="ico/favicon_32.png">
+  <!-- Google analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-41708146-1', 'newsplot.org');
+    ga('send', 'pageview');
+  </script>
+  <!-- VK ----------------------------->
+  <script type="text/javascript" src="http://vkontakte.ru/js/api/share.js?9" charset="windows-1251"></script>
+  <!-- Facebook ----------------------->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Google plus. Place this tag after the last +1 button tag. -->
+  <script type="text/javascript">
+    window.___gcfg = {lang: 'ru'};
+    (function () {
+      var po = document.createElement('script');
+      po.type = 'text/javascript';
+      po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(po, s);
+    })();
+  </script>
+</head>
+<body style="background: url(bg/bg.jpg) center center repeat fixed;"> <!-- TODO change background picture -->
+<div id="intro">
+  <div class="links"><a href="#page1"><img id="intro-globe" src="img/intro.png"/></a></div>
+  <!-- TODO change intro picture -->
+  <h1 id="intro-heading" style="background: url(img/mask.png) repeat;">
+    Согласно данным нового Глобального рейтинга, Индекс миролюбия Украины <br>
+    в нынешнем году достиг своего абсолютного минимума за последние 6 лет. <br>
+    Одна из главных причин, почему это произошло - рост протестных <br>
+    настроений внутри страны.
+  </h1>
+  <!-- TODO change header background picture -->
+  <h3 class="desc-heading"><img src="img/author.png" alt="Юрий Тюрдьо"/><br>
+    <span>Юрий Тюрдьо</span>
+  </h3>
+</div>
+
+<div id="bg1" class="promo-parallax"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg1.jpg) center center repeat fixed; min-height: 200px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 200px;"></div>
+</div>
+
+<section id="page1">
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h3 class="main-heading">Украина больше не миролюбивая страна</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <h4>
+              Вопреки устойчивому украинскому автостереотипу (привычному восприятию себя), в глазах наших соседей
+              Украина - источник серьезных угроз.
+            </h4>
+
+            <p>За истекший год Украина опустилась на 23 строчки вниз в Глобальном рейтинге миролюбия и заняла 111 место
+              среди 162 стран. Институт экономики и мира (IEP), по инициативе которого составляется ежегодный индекс
+              миролюбия, ставит Украину в один ряд с Сирией, Суданом, Буркина-Фасо - лидерами этого года по темпам
+              нарастания угроз миру и стабильности. Индекс миролюбия Украины в нынешнем году достиг своего абсолютного
+              минимума за последние 6 лет.</p>
+          </div>
+          <div class="span6">
+            <img src="img/infogr1.jpg" alt="инфографика" width="100%"/>
+
+            <p class="white-text" style="font-size: 19px; margin-top: 35px;">
+              В Глобальном рейтинге миролюбия 2007-2012 гг. Украина была ближе к миролюбивым странам, чем к
+              воинствующим. Однако в 2013 году ситуация изменилась.
+            </p>
+          </div>
+        </div>
+        <div class="links row pull-right"><a href="#page2"><img src="img/scroll.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="bg10" class="promo-parallax hidden-phone"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg10.jpg) center center repeat fixed; min-height: 600px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 600px;"></div>
+</div>
+
+<div id="bg11" class="promo-parallax"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg11.jpg) center center repeat fixed; min-height: 200px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 200px;"></div>
+</div>
+
+<section id="page2"> <!-- TODO check ID -->
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2 class="main-heading">Когда каждая копейка на счету</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <h4>Финансовой Fair play - новая эра в мировом футболе </h4>
+
+          <p>УЕФА продвигает правила финансовой Fair play для европейских клубов с целью сделать футбол более
+            справедливым. Основной принцип - клубы не могут тратить больше, чем зарабатывают. В результате, многим из
+            них придется больше внимания уделять тем статьям доходов, на которые раньше особо не рассчитывали.</p>
+
+          <br>
+
+          <p>В случае с Украиной речь идет о работе с чистого листа - болельщики у нас, как правило, существуют
+            отдельно от клубов.</p>
+        </div>
+        <div class="span6">
+          <h4 class="white-text">Как футбольные клубы зарабатывают на болельщиках</h4>
+
+          <p class="white-bg">...Совмещение спортивного действа с каким-либо элементом шоу (концертом группы,
+            выступлением артистов, лазерным шоу и т.п.) – один из достаточно эффективных способов привлечения на трибуны
+            тех, кто ранее игнорировал спорт.</p>
+          <a class="resource-lnk" href="http://blog.sport-profy.ru/2012/01/4.html" target="_blank" title="SportProfy">SportProfy</a>
+
+          <p class="white-bg">...ФК “Динамо” (Киев) разрабатывает новую программу для посетителей домашних матчей,
+            мотивируя поклонников футбола покупать абонемент на весь сезон.</p>
+          <a class="resource-lnk" href="http://isport.ua/football/ukraine/news/197467.html" target="_blank"
+             title="Isport.ua">Isport.ua</a>
+
+          <p class="white-bg">...Можно ли привлечь на матч не только фанатов, но и людей, далеких от футбола? Несколько
+            идей от менеджеров ФК «Шахтер» (Донецк)</p>
+          <a class="resource-lnk" href="http://forbes.ua/business/1348285-chem-shahter-zamanivaet-bolelshchikov"
+             target="_blank" title="Forbes.ua">Forbes.ua</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h3 class="main-heading">Авторитетное мнение</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <h3>Юрий СЕМИН</h3>
+
+          <p class="white-text">экс-тренер «Динамо» (Киев):</p>
+          <img style="margin:15px 0 20px;" src="img/siomin.jpg" alt="Юрий Семин"/>
+
+          <p>Отношение к болельщикам должно стать другим. Следует найти новые пути общения команды с ними. Вдруг
+            почему-то своих болельщиков представили врагами. И это очень и очень плохо. Раньше боролись за каждого
+            зрителя, а сейчас идут в другом направлении. Надо теплее относится к тем, кто ходит на стадион, оберегать их
+            и создавать все условия для комфортного отдыха. Футбол – это не соревнование одной организации с другой, он
+            предназначен для болельщиков.</p>
+        </div>
+        <div class="span4">
+          <h3>Мирча ЛУЧЕСКУ</h3>
+
+          <p class="white-text">главный тренер ФК «Шахтер»:</p>
+          <img style="margin:15px 0 20px;" src="img/luchesku.jpg" alt="Мирча Луческу"/>
+
+          <p>Наши болельщики представляют, что значить обеспечить себя абонементом на сезон. Примером для подражания
+            служат ведущие страны Европы, где до отказа заполняются все стадионы. Хотелось бы, чтобы наши фанаты делали
+            то же самое и в Донецке. Абонемент означает не только то, что у тебя есть место на стадионе на целый сезон.
+            Это значит постоянно быть рядом с командой, поддерживать ее.</p>
+
+          <p>Хотелось бы, чтобы по истечении моего контракта наступило время, когда будут ежегодно покупать по 40-45
+            тысяч абонементов. Это была бы гордость для команды, для ее болельщиков, и для всего Донбасса.</p>
+        </div>
+        <div class="span4">
+          <h3>Алекс ФЕРГЮСОН</h3>
+
+          <p class="white-text">тренер «Манчестер Юнайтед»:</p>
+          <img style="margin:15px 0 20px;" src="img/ferguson.jpg" alt="Алекс Фергюсон"/>
+
+          <p>Мы забиваем много голов, и болельщикам это нравится. С точки зрения телевизионных трансляций, будь то в
+            Америке или Австралии, зрители совсем не прочь увидеть еще один матч со счетом 4:3. Соперники по-особому
+            настраиваются на «МЮ», поэтому и получаются такие результативные игры.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row hr-top">
+        <div class="span12">
+          <h3 class="white-text">На болельщиках украинские клубы зарабатывают в 40 раз меньше немецких. Количество самих
+            болельщиков на стадионах меньше в 5 раз </h3>
+          <img class="add-top-half" src="img/soccer-1.jpg">
+
+          <p style="font-size: 30px; line-height: 30px; margin-top: 30px;">Match-day в ведущих коммерческих лигах
+            мирового спорта приносит командам до трети, а то и половины общего годового дохода. Болельщик может оставить
+            на стадионе и в его пределах весьма значительную сумму.</p>
+        </div>
+      </div>
+      <div class="links row pull-right"><a href="#page3"><img src="img/scroll.png"></a></div>
+    </div>
+  </div>
+</section>
+
+<div id="bg2" class="promo-parallax hidden-phone"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg2.jpg) center center repeat fixed; min-height: 600px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 600px;"></div>
+</div>
+
+<div id="bg3" class="promo-parallax"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg3.jpg) center center repeat fixed; min-height: 200px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 200px;"></div>
+</div>
+
+<section id="page3"> <!-- TODO check ID -->
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2 class="main-heading" style="font-size: 30px; line-height: 30px;">Создание приятного пространства на
+            стадионе – едва ли не первостепенная задача клубного маркетинга по работе с болельщиками. Важно, чтобы им
+            захотелось вернуться на стадион, а затем придти еще и еще раз. Болельщики - это клиенты</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <h3>Ресурсы и соотношение</h3>
+
+          <p>
+            Футбольные клубы получают операционный доход из трех основных источников: выручка за игровые дни - билеты,
+            сезонные абонементы, места премиум-класс и т.п; продажа прав на телетрансляции; спонсорство, торговля,
+            лицензирование. В среднем 20% выручки клубов “большой пятерки” - это игровые дни, 46% - продажа прав на
+            телетрансляцию, 34% - другие источники.
+          </p>
+        </div>
+        <div class="span6">
+          <h3>Работать должны профессионалы</h3>
+
+          <p>Чтобы достичь стабильного роста выручки, необходимо тщательно продумать (оценить) размеры стадиона, его
+            конструкцию и соотношение различных видов мест с учетом рыночных требований. Дальше - разработать
+            эффективную стратегию ценообразования. Этим должна заниматься группа квалифицированных специалистов по
+            управлению стадионом, поддерживающая тесное взаимодействие с болельщиками.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span6">
+          <h3>Частные стадионы - прибыльные</h3>
+
+          <p> Ведущие клубы Европы, которые управляют собственными стадионами, получают непропорционально высокую долю
+            выручки за игровые дни по сравнению с остальными клубами Европы. Для примера у ФК “Арсенал” (Лондон)
+            соответствующая статья дохода составляет 42% от совокупной выручки клуба.
+          </p></div>
+        <div class="span6">
+          <h3>Шоу - это часть футбола</h3>
+
+          <p> Совмещение спортивного действа с элементом шоу (концертом группы, выступлением артистов, лазерным шоу и
+            т.п.) – один из достаточно эффективных способов привлечения на трибуны тех, кто ранее игнорировал спорт.
+            Для многих людей игра сама по себе значит довольно мало. Зрители хотят эмоций.</p>
+
+        </div>
+      </div>
+      <div class="links row pull-right" style="margin-top: 10px;"><a href="#page4"><img src="img/scroll.png"></a></div>
+    </div>
+  </div>
+</section>
+
+<div id="bg4" class="promo-parallax hidden-phone"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg4.jpg) center center repeat fixed; min-height: 600px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 600px;"></div>
+</div>
+
+<div id="bg5" class="promo-parallax"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg5.jpg) center center repeat fixed; min-height: 200px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 200px;"></div>
+</div>
+
+<section id="page4"> <!-- TODO check ID -->
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h3 class="main-heading">25-35% доходов успешных клубов топ-5 европейских чемпионатов обеспечивают болельщики
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <img src="img/stadium.jpg" alt=""/>
+
+          <h3>Билеты и реклама</h3>
+
+          <p>Создать удобные и привлекательные системы приобретения билетов: интернет, театральные кассы, абонементы на
+            сезон, скидки на матчи, дисконт от количества посещенных матчей, дополнительные бонусы на следующие покупки.
+            Лучше всего в этом плане работают маркетинговые службы клубов Германии и Англии.
+          </p>
+
+          <p>Источник: <a href="http://blog.sport-profy.ru" class="black-lnk" target="_blank"
+                          title="KPMG “Европейские стадионы - 2011”">KPMG “Европейские стадионы - 2011”</a></p>
+
+        </div>
+        <div class="span6">
+          <h4 class="white-text">Самые популярные футбольные клубы Европы (млн. чел.)</h4>
+          <img src="img/table.png" alt=""/>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="container">
+          <div class="row hr-top" style="margin-top: 50px !important">
+            <div class="span12">
+              <h4 class="white-text">Футбольные клубы активно продвигают сезонные абонементы. Какие преимущества
+                получают болельщики - владельцы абонементов?</h4>
+              <img class="add-top-half" src="img/soccer-2.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="links row pull-right"><a href="#page5"><img src="img/scroll.png"></a></div>
+    </div>
+  </div>
+</section>
+
+<div id="bg6" class="promo-parallax hidden-phone"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg6.jpg) center center repeat fixed; min-height: 600px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 600px;"></div>
+</div>
+
+<div id="bg7" class="promo-parallax"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg7.jpg) center center repeat fixed; min-height: 200px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 200px;"></div>
+</div>
+
+<section id="page5"> <!-- TODO check ID -->
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2 class="main-heading">В Украине донецкий “Шахтер” опережает киевское “Динамо” в эффективности работы с
+            болельщиками.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row video">
+        <div class="span6">
+          <h3>Соперничество стадионов и&nbsp;болельщиков</h3>
+          <iframe src="http://player.vimeo.com/video/68042320?title=0&amp;byline=0&amp;portrait=0&amp;color=669900"
+                  width="450" height="253" frameborder="0" webkitAllowFullScreen mozallowfullscreen
+                  allowFullScreen></iframe>
+          <p>
+            <strong>Владимир Генинсон</strong>, почетный президент НСК “Олимпийский”, о том, какие удобства создаются
+            для болельщиков на стадионе
+          </p>
+        </div>
+        <div class="span6">
+          <h3>Новые подходы в работе с болельщиками</h3>
+          <iframe src="http://player.vimeo.com/video/68042321?title=0&amp;byline=0&amp;portrait=0&amp;color=669900"
+                  width="450" height="253" frameborder="0" webkitAllowFullScreen mozallowfullscreen
+                  allowFullScreen></iframe>
+          <p><strong>Виталий Сивков</strong>, первый вице-президент ФК “Динамо” о новых подходы клуба в работе с
+            болельщиками.</p>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="container">
+          <div class="row hr-top" style="margin-top: 50px !important">
+            <div class="span12">
+              <h4 class="white-text">Кто лучше, Киев или Донецк, отвечает запросам болельщиков? </h4>
+              <img class="add-top-half" src="img/soccer-5.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="container">
+          <div class="row" style="margin: 50px 0 25px;">
+            <div class="span12"><span class="digit">цифра</span></div>
+          </div>
+          <div class="row">
+            <div class="span3"><p><span class="percent">58%</span></p></div>
+            <div class="span9"><p class="white-text" style="font-size: 32px; line-height: 40px">рост посещаемости
+              «Донбасс Арены» на матчах Премьер-лига за последних три сезона.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="container">
+          <div class="row hr-top">
+            <div class="span12">
+              <h3 class="white-text">Соперничество стадионов и болельщиков</h3>
+              <img class="add-top-half" src="img/soccer-3.jpg" style="margin-bottom: 25px;">
+              <img src="img/soccer-4.jpg" alt=""/>
+
+              <p class="white-text"
+                 style="font-size: 36px; font-family: DINCyr-Medium; line-height: 100%; padding-top: 35px;">
+                Платежеспособный внутренний рынок и новейшая техническая оснащенность стадионов играют не меньшую роль в
+                формировании выручки клубов, чем спортивные достижения команд </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="links row pull-right"><a href="#page6"><img src="img/scroll.png"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="bg8" class="promo-parallax hidden-phone"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg8.jpg) center center repeat fixed; min-height: 600px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 600px;"></div>
+</div>
+
+<div id="bg9" class="promo-parallax"> <!-- TODO check ID -->
+  <div class="parallax-bg" style="background: url(bg/bg9.jpg) center center repeat fixed; min-height: 200px;"></div>
+  <!-- TODO change background picture -->
+  <div style="height: 200px;"></div>
+</div>
+<section id="page6"> <!-- >TODO check ID -->
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2 class="main-heading">Поделитесь историей с вашими друзьями</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <!-- Social network buttons ---->
+          <div class="social-button" style="margin-right: -10px;">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ru">Твитнуть</a>
+            <script>!function (d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            }(document, 'script', 'twitter-wjs');</script>
+          </div>
+          <div class="social-button">
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="450"
+                 data-show-faces="false"></div>
+          </div>
+          <div class="social-button">
+            <script type="text/javascript">
+              <!--
+              document.write(VK.Share.button());
+              -->
+            </script>
+          </div>
+          <div class="social-button">
+            <div class="g-plusone"></div>
+          </div>
+          <!-- Social network buttons ---->
+        </div>
+      </div>
+      <div class="links row pull-right"><a href="#intro"><img src="img/scroll-up.png"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="height: 600px; background: url('bg/bg10.jpg') center center no-repeat">
+  <!-- TODO change FOOTER background picture -->
+  <footer class="row-fluid" style="padding-top: 250px; background: url(bg/bg12.jpg) center center no-repeat; background-size: cover;">
+    <div class="container">
+      <div class="row">
+        <div class="span12" style="text-align: center">
+          <a href="http://newsplot.org"><img src="img/footer-logo.png"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12" style="text-align: center; margin-top: 60px;">
+          <a href="http://twitter.com/newsplot_org"><img src="img/twitter.png"></a>&nbsp;
+          <a href="http://facebook.com/newsplot"><img src="img/fb.png"></a>&nbsp;
+          <a href="http://vk.com/newsplot"><img src="img/vk.png"></a>&nbsp;
+          <a href="https://plus.google.com/103251920519887985454/about"><img src="img/google-plus.png"></a>
+        </div>
+      </div>
+    </div>
+    <div style="margin: 88px 0 0 -30px; text-align: center; background-color: rgba(33, 33, 33, 0.5); height: 50px">
+      <p style="padding: 15px 0; color: #fff;">Newsplot.org © 2013. Все права защищены</p>
+    </div>
+  </footer>
+</div>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/fonts.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".links a").click(function () {
+      $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top + "px"}, {duration: 1500, easing: "swing"});
+      return false;
+    });
+  });
+
+</script>
+</body>
+</html>
