@@ -25,7 +25,7 @@ section {
 p {
     font-size: 18px;
     line-height: 21px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     color: #000;
 }
 
@@ -77,8 +77,8 @@ h3.main-heading {
 }
 
 h4 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 27px;
+    line-height: 30px;
     font-weight: normal;
 }
 
@@ -103,18 +103,25 @@ a:hover {
 }
 
 .desc-heading {
-    margin-top: 100px;
-    color: #fff;
-    font-size: 25px;
+    /*margin-top: 100px;*/
+    color: #000;
+    font-size: 22px;
     text-shadow: 1px 1px 2px #666;
     font-weight: 500;
+
 }
 
-.hr-top {
+.hr-top,
+.hr-top-s{
     background: url(../img/hor-line.jpg) no-repeat;
     margin-top: 30px !important;
     padding-top: 30px;
 }
+
+.hr-top-s{
+    background-position: -160px 0;
+}
+
 
 .green-text {
     color: #9db8ca;
