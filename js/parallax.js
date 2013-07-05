@@ -120,16 +120,16 @@ $(document).ready(function () {
             bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.1)});
         }
         if ($bg2.hasClass("inview")) {
-            bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, 200, 0.2)});
+            bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, -200, 0.35)});
         }
         if ($bg3.hasClass("inview")) {
             bg3.css({'backgroundPosition': newPos(50, windowHeight, pos, 100, 0.5)});
         }
         if ($bg4.hasClass("inview")) {
-            bg4.css({'backgroundPosition': newPos(50, windowHeight, pos, 300, 1.3)});
+            bg4.css({'backgroundPosition': newPos(50, windowHeight, pos, -900, -0.1)});
         }
         if ($bg5.hasClass("inview")) {
-            bg5.css({'backgroundPosition': newPos(50, windowHeight, pos, 4000, 0.04)});
+            bg5.css({'backgroundPosition': newPos(50, windowHeight, pos, 2700, 0.12)});
         }
         if ($bg6.hasClass("inview")) {
             bg6.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 1.6)});
@@ -138,16 +138,16 @@ $(document).ready(function () {
             bg7.css({'backgroundPosition': newPos(50, windowHeight, pos, 100, 1.8)});
         }
         if ($bg8.hasClass("inview")) {
-            bg8.css({'backgroundPosition': newPos(50, windowHeight, pos, 1500, 0.3)});
+            bg8.css({'backgroundPosition': newPos(50, windowHeight, pos, 1500, 0.2)});
         }
         if ($bg9.hasClass("inview")) {
-            bg9.css({'backgroundPosition': newPos(50, windowHeight, pos, 700, 0.2)});
+            bg9.css({'backgroundPosition': newPos(50, windowHeight, pos, 700, 0.3)});
         }
         if ($bg10.hasClass("inview")) {
-            bg10.css({'backgroundPosition': newPos(50, windowHeight, pos, -350, 1.4)});
+            bg10.css({'backgroundPosition': newPos(50, windowHeight, pos, -1200, -0.25)});
         }
         if ($bg11.hasClass("inview")) {
-            bg11.css({'backgroundPosition': newPos(50, windowHeight, pos, 700, 0.2)});
+            bg11.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.15)});
         }
 
         // TODO add new rules if needed

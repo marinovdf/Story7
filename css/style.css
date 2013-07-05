@@ -1,30 +1,30 @@
 body {
-    font-family: DINCyr-Regular;
+    font-family: arial;
     text-shadow: none;
     color: #000;
     background: #9db8ca;
 }
 
 h1, h2, h3, h4 {
-    font-family: DINCyr-Medium;
+    font-family: "Times New Roman";
     line-height: 100%;
     font-weight: normal;
 }
 
 .video iframe {
     width: 450px;
-    margin: 25px 0 20px;
+    margin: 0 0 20px;
 
 }
 
 section {
     background: #9db8ca;
-    padding: 30px 0 60px;
+    padding: 60px 0 60px;
 }
 
 p {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 24px;
     padding-bottom: 0;
     color: #000;
 }
@@ -45,21 +45,21 @@ h1.main-heading {
     line-height: 45px;
     font-weight: 400;
     padding-bottom: 25px;
-    border-bottom: solid 8px #0099cc;
 }
 
 h2.main-heading {
     text-align: left;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: normal;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
     color: #ffffff;
     background: url(../img/hor-line.jpg) no-repeat bottom center;
 }
 
 h3 {
     line-height: 100%;
+
 }
 
 h3.white-text {
@@ -77,9 +77,12 @@ h3.main-heading {
 }
 
 h4 {
-    font-size: 27px;
+    font-family: Arial;
+    font-size: 26px;
     line-height: 30px;
     font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 h4 span {
@@ -112,16 +115,15 @@ a:hover {
 }
 
 .hr-top,
-.hr-top-s{
+.hr-top-s {
     background: url(../img/hor-line.jpg) no-repeat;
     margin-top: 30px !important;
     padding-top: 30px;
 }
 
-.hr-top-s{
+.hr-top-s {
     background-position: -160px 0;
 }
-
 
 .green-text {
     color: #9db8ca;
@@ -188,17 +190,12 @@ a:hover {
 
 #intro-heading {
     font-size: 24px;
+    line-height: 30px;
     margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: normal;
-    color: #ffffff;
-
-    -webkit-text-shadow: 1px 1px 2px #000;
-    -moz-text-shadow: 1px 1px 2px #000;
-    -ms-text-shadow: 1px 1px 2px #000;
-    -o-text-shadow: 1px 1px 2px #000;
-    text-shadow: 1px 1px 2px #000;
+    color: #000;
 }
 
 .main-heading span {
@@ -210,6 +207,28 @@ a:hover {
     float: left;
     margin-right: 20px;
 }
+
+section #page6 {
+    padding-top: 130px;
+}
+
+.add-top-half {
+    margin-top: 25px;
+}
+
+.times {
+    font-family: "Times New Roman";
+}
+
+.author img {
+    margin-right: 25px;
+}
+
+.author p {
+    font-size: 22px;
+}
+
+/*/custom style*/
 
 @media (min-width: 1200px) {
 
@@ -255,57 +274,6 @@ a:hover {
 }
 
 /*custom style*/
-.white-bg {
-    font-size: 16px;
-    background: #fff;
-    padding: 20px;
-}
-
-.resource-lnk {
-    margin: -5px 0 15px;
-    display: block;
-}
-
-.title {
-    margin-bottom: 0;
-}
-
-.digit {
-    background: #ffffff;
-    color: #9db8ca;
-    font-size: 36px;
-    line-height: 50px;
-    padding: 0 25px 7px;
-    font-family: DINCyr-Medium;
-    line-height: 100%;
-    margin-bottom: 25px;
-}
-
-.percent {
-    color: #252525;
-    font-family: DINCyr-Medium;
-    font-size: 89px;
-    line-height: 100%;
-}
-
-section #page6 {
-    padding-top: 130px;
-}
-
-.black-lnk {
-    color: #000;
-    text-decoration: underline;
-}
-
-.black-lnk:hover {
-    color: #000;
-}
-
-.add-top-half {
-    margin-top: 25px;
-}
-
-/*/custom style*/
 
 @media screen and (max-width: 979px) {
     iframe {
