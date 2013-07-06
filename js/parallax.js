@@ -120,16 +120,16 @@ $(document).ready(function () {
             bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.1)});
         }
         if ($bg2.hasClass("inview")) {
-            bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, -200, 0.35)});
+            bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, 800, 1.6)});
         }
         if ($bg3.hasClass("inview")) {
-            bg3.css({'backgroundPosition': newPos(50, windowHeight, pos, 100, 0.5)});
+            bg3.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 1.8)});
         }
         if ($bg4.hasClass("inview")) {
             bg4.css({'backgroundPosition': newPos(50, windowHeight, pos, -900, -0.1)});
         }
         if ($bg5.hasClass("inview")) {
-            bg5.css({'backgroundPosition': newPos(50, windowHeight, pos, 2700, 0.12)});
+            bg5.css({'backgroundPosition': newPos(50, windowHeight, pos, 1350, 1.2)});
         }
         if ($bg6.hasClass("inview")) {
             bg6.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 1.6)});
@@ -141,13 +141,13 @@ $(document).ready(function () {
             bg8.css({'backgroundPosition': newPos(50, windowHeight, pos, 1500, 0.2)});
         }
         if ($bg9.hasClass("inview")) {
-            bg9.css({'backgroundPosition': newPos(50, windowHeight, pos, 700, 0.3)});
+            bg9.css({'backgroundPosition': newPos(50, windowHeight, pos, -100, 0.5)});
         }
         if ($bg10.hasClass("inview")) {
             bg10.css({'backgroundPosition': newPos(50, windowHeight, pos, -1200, -0.25)});
         }
         if ($bg11.hasClass("inview")) {
-            bg11.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.15)});
+            bg11.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 0.37)});
         }
 
         // TODO add new rules if needed
