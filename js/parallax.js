@@ -129,7 +129,7 @@ $(document).ready(function () {
             bg4.css({'backgroundPosition': newPos(50, windowHeight, pos, -900, -0.1)});
         }
         if ($bg5.hasClass("inview")) {
-            bg5.css({'backgroundPosition': newPos(50, windowHeight, pos, 1350, 1.2)});
+            bg5.css({'backgroundPosition': newPos(50, windowHeight, pos, -1250, 0.2)});
         }
         if ($bg6.hasClass("inview")) {
             bg6.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, 1.6)});
